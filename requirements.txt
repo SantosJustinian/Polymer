@@ -1,8 +1,7 @@
 streamlit>=1.15.0
 PyPDF2>=3.0.0
 openai>=0.27.0
-transformers>=4.30.0
-torch>=2.0.0
+transformers==4.26.0
+torch==2.0.0+cpu
 python-dotenv>=1.0.0
-torchvision>=0.15.1
-torchaudio>=0.15.1
+-f https://download.pytorch.org/whl/torch_stable.html
