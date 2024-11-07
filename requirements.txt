@@ -1,7 +1,5 @@
 streamlit
 PyPDF2
 openai
-transformers
-torch+cpu
 python-dotenv
 
