@@ -6,7 +6,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from transformers import pipeline
 
-api_key = st.secrets("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 climate_sentiment_analyzer = pipeline("text-classification", model="climatebert/distilroberta-base-climate-sentiment")
 
 # Step 1: Extract text from PDF
