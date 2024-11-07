@@ -63,6 +63,7 @@ def main():
     if st.button("Begin") and uploaded_files:
         final_summary = ""
         for uploaded_file in uploaded_files:
+            final_summary = ""
             with st.spinner(f"Extracting text from PDF {uploaded_file.name}..."):
                 # Extract text from uploaded PDF
                 pdf_text = extract_pdf_text(uploaded_file)
