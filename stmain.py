@@ -54,7 +54,7 @@ def summarize_text(text):
 
 # Streamlit app
 def main():
-    st.title("Sustainability Report Summarizer")
+    st.markdown("<h1 style='text-align: center;'>golden.ai</h1>", unsafe_allow_html=True)
 
     # File upload
     uploaded_files = st.file_uploader("Upload PDF files", type="pdf", accept_multiple_files=True)
