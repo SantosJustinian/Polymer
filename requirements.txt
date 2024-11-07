@@ -4,3 +4,5 @@ openai>=0.27.0
 transformers>=4.30.0
 torch>=2.0.0
 python-dotenv>=1.0.0
+torchvision>=0.15.1
+torchaudio>=0.15.1
